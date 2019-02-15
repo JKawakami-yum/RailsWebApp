@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>HEllO INOKUN_home</title>
+  <title>HEllO INOKUN_liking</title>
   <meta name="vewport" content="width=device-width">
   <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu/home.css">
+  <link rel="stylesheet" href="css/menu/liking.css">
   <LINK rel="SHORTCUT ICON" href="img/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
@@ -22,7 +22,8 @@
     <!--ここから-->
     <script>
       var a = ["Life is the time of almsgiving.", "Want to make the best out of my life.", "Easy to live .Thought is high."];
-      /*伊野くん名言集*//*人生は施しの時間である。*/ /*できるだけ楽して生きたい。*//*私は私が取り得る最善の行動をするだけである*/
+      /*いのくん名言集*/
+      /*人生は施しの時間である。*/ /*できるだけ楽して生きたい。*/ /*私は私が取り得る最善の行動をするだけである*/
       var x;
       x = Math.floor(Math.random() * 3);
       document.write(a[x]);
@@ -31,7 +32,7 @@
   </div>
   <div class="main">
     <div class="menu">
-      <a id="home" href="index.html">Home</a>
+      <a id="index" href="index.html">Home</a>
       <a id="about" href="about.html">About</a>
       <a id="profile" href="profile.html">Profile</a>
       <a id="liking" href="liking.html">Liking</a>
@@ -42,12 +43,14 @@
   </div>
 
   <div class="text">
-    <h2>Home</h2>
-    <p>Hello everyone!</p><!--こんにちは皆さん。-->
-    <p>A long time has passed since we met Ino-Kun.</p><!--私たちがいのくんと出会ってから長い時間が経ちました。-->
-    <p>How much you know the character him ?</p><!--あなたはいのくんという人物をどれだけ知っていますか-->
-    <p>Now you will know a lot about him.</p><!--今からあなたはいの君について多くのことを知るだろう。-->
-    <p>Have a good time.</p><!--よい時間を。-->
+    <h2>Liking</h2>
+    <p>Please choose the one you want to see.</p>
+    <!--見たい方を選べ-->
+    <div class="lord">
+      <a href="lord/like.html #like"><h3 id="like">- Likes -</h3></a><!--好き-->
+      <a href="lord/dislike.html #dislike"><h3 id="dislike">- Dislikes -</h3></a><!--苦手-->
+    </div>
+
   </div>
 
   <div class=" foot">

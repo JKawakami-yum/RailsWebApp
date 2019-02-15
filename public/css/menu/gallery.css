@@ -1,0 +1,11 @@
+#gallery {
+  color: #00305c;
+}
+
+.text img {
+  opacity: 0.7;
+}
+
+.text img:hover {
+  opacity: 1;
+}
